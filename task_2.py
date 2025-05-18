@@ -11,6 +11,6 @@ class Tester:
             print(self.name, 'Можно отдыхать')
 
 tester_1 = Tester('tester_1', True)
-tester_1.work_hard(deadline=False)  # 'tester_1 Можно отдыхать'
+tester_1.work_hard(deadline=False)
 tester_2 = Tester('tester_2', True)
-tester_2.work_hard(deadline=True)   # 'tester_2 Что ж, ещё часок поработаю!' 
+tester_2.work_hard(deadline=True)
