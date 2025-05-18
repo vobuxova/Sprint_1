@@ -1,6 +1,6 @@
 class Tester:
 
-    def __init__(self, name, deadline):
+    def __init__(self, name, deadline = True):
         self.name = name
         self.deadline = deadline
 
@@ -10,7 +10,7 @@ class Tester:
         else:
             print(self.name, 'Можно отдыхать')
 
-tester_1 = Tester('tester_1', True)
+tester_1 = Tester(name='tester_1')
 tester_1.work_hard(deadline=False)
-tester_2 = Tester('tester_2', True)
-tester_2.work_hard(deadline=True)
+tester_2 = Tester(name='tester_2')
+tester_2.work_hard(deadline=True) 
