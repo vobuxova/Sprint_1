@@ -2,7 +2,7 @@ class Tester:
 
     def __init__(self, name):
         self.name = name
-        
+
     def work_hard(self, deadline):
         if deadline:
             print(self.name, 'Что ж, ещё часок поработаю!')
